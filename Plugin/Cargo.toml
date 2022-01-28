@@ -1,0 +1,13 @@
+[package]
+name = "unity-tts"
+version = "0.1.0"
+authors = ["Keijiro Takahashi <keijiro@gmail.com>"]
+edition = "2021"
+
+[lib]
+name = "ttsrust"
+crate-type = ["cdylib"]
+
+[dependencies]
+lazy_static = "1.4.0"
+tts = "0.20.1"
